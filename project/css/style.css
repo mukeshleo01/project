@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.wrapper{
+   
+    background-color: #8ce9fc;
+    background-image: linear-gradient( #8ce9fc, #6abccd);
+    height: 100vh;
+    
+}
+
+
+#blobSvg{
+    height: 100vh;
+}
+.main-content{
+ overflow: hidden;
+
+}
+
+.box{    
+    padding: 35px 100px 0 100px;
+
+}
+
+.row1{
+    align-items: center;
+    height: 500px;
+    display: flex;
+}
+.shoe-img {
+    position: absolute;
+    z-index: 5;
+    top: 100px;
+
+}
+.shoe-img img{
+    width: 100%;
+    height: 100%;
+}
+.color-box{
+    background-color: #eef58b;
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(  #dee575 , #a4f0ff );
+    position: absolute;
+}
+.left-side{
+    width: 50%; 
+}
+.right-side{
+    border: 10px solid white;
+    position: relative;
+}
+.right-side .text h1{
+    color: white;
+    font-weight: 900;
+    font-size: 65px;
+    text-align: end;
+}
+.right-side .text {
+    position: relative;
+
+    padding: 84px 35px 84px 118px;
+}
